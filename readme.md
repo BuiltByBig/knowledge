@@ -44,7 +44,7 @@
 ### JavaScript Testing
 
 * [Jest][jest] - A robust, fast and all-in-one test framework by Facebook
-* [Enzyme][enzymb] - A React testing library by AirBnB
+* [Enzyme][enzyme] - A React testing library by AirBnB
 * Browser testing: (http://nightwatchjs.org/, http://phantomjs.org/, http://casperjs.org/)
 
 ### JavaScript Build Tools
@@ -62,6 +62,7 @@
 * [Rollup][rollup] - Build node modules
 * [Lerna][lerna] - Manage multiple node modules in one codebase
 * [commander][commander] - Command line argument parsing
+* [npm-run-all](https://www.npmjs.com/package/npm-run-all) - Run npm scripts in parallel/series
 * [cosmiconfig][cosmiconfig] - A configuration management library
 * [Gatsby](https://www.gatsbyjs.org/) - React static site generator (also see [react-static](https://github.com/nozzle/react-static), [Phenomic](https://phenomic.io))
 
@@ -296,4 +297,6 @@ You should start with local state and move to global state when the state is nee
 [euphoria]: https://github.com/euphoria-css/euphoria
 [dotwild]: https://github.com/tsuyoshiwada/dot-wild
 [jest]: https://facebook.github.io/jest/
+[lerna]: https://github.com/lerna/lerna
+[prettier]: https://prettier.io/
 [rollup]: https://rollupjs.org

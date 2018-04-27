@@ -13,6 +13,68 @@
 
 ## General React Syntax
 
+### React Hello World
+
+```jsx
+import React from 'react'
+import { render } from 'react-dom'
+
+render(<h1>Hello world!</h1>, document.body)
+```
+
+### Using `props` in your components
+
+`props` allow you to pass in data to a component to render. You can think of props as function parameters, becuase in reality they are.
+
+```jsx
+import React from 'react'
+import { render } from 'react-dom'
+
+function Hello({ message }) {
+  return <h1>Hello {message}!</h1>
+}
+
+render(<Hello message="World" />, document.body)
+```
+
+### Adding default `props`
+
+There are two ways to add default props to your components.
+
+The first is to use `defaultProps`:
+
+```jsx
+import React from 'react'
+import { render } from 'react-dom'
+
+function Hello({ message }) {
+  return <h1>Hello {message}!</h1>
+}
+
+Hello.defaultProps = { message: 'Universe' }
+
+render(<Hello message="World" />, document.body)
+```
+
+The alternate technique is to use ES6 default properties:
+
+```jsx
+import React from 'react'
+import { render } from 'react-dom'
+
+function Hello({ message = 'Universe }) {
+  return <h1>Hello {message}!</h1>
+}
+
+render(<Hello message="World" />, document.body)
+```
+
+Which one you use is up to you, but in general it is probably best to use `defaultProps` as it is built into React and is a more common convention.
+
+### Using `state` in your components
+
+### Event handling in your components
+
 ### Using a container component with a "stupid" component
 
 This is an example of combining a stateless functional React "stupid" component with a stateful class "container" component, `user-list.jsx`:

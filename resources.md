@@ -6,7 +6,7 @@ Links to useful tools and products for building web and mobile software.
 
 ### Frameworks
 
-- [Feathres](https://feathersjs.com/) - REST and WebSocket framework
+- [Feathers](https://feathersjs.com/) - REST and WebSocket framework
 - [next.js](https://github.com/zeit/next.js) - Isomorphic React framework
 - [after.js](https://github.com/jaredpalmer/after.js) - Next.js-like framework
 - [HyperApp](https://hyperapp.js.org/) - Micro-framework for web applications

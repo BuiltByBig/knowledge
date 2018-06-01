@@ -64,15 +64,16 @@ Links to useful tools and products for building web and mobile software.
 ### Static Site Hosting
 
 - Github Pages
-- [zeit](https://zeit.co/)
 
 
-### CDNS
+
+### CDNs
 
 - [Cloudflare CDN](https://www.cloudflare.com/cdn/)
 
 ### Cloud Functions
 
+- [zeit](https://zeit.co/) - Serverless platform
 - [serverless](https://serverless.com/) - Framework for deploying to AWS Lambda and others
 - [up](https://up.docs.apex.sh/) - Serverless app framework
 
